@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GreasyCasino">
+    <output-path>$PROJECT_DIR$/out/artifacts/GreasyCasino</output-path>
+    <root id="archive" name="stakerLite.jar">
+      <element id="module-output" name="GreasyCasino" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.5945945945945946" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="106.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Core.Controller">
+    <padding>
+        <Insets bottom="7.0" left="7.0" top="7.0" />
+    </padding>
+   <items>
+       <AnchorPane prefHeight="140.0" prefWidth="425.0" SplitPane.resizableWithParent="false">
+           <padding>
+               <Insets bottom="5.0" />
+           </padding>
+          <children>
+              <HBox layoutY="5.0" prefHeight="35.0" prefWidth="394.0">
+                  <padding>
+                      <Insets bottom="5.0" top="5.0" />
+                  </padding>
+                  <opaqueInsets>
+                      <Insets />
+                  </opaqueInsets>
+                 <children>
+                     <VBox prefHeight="90.0" prefWidth="100.0">
+                         <HBox.margin>
+                             <Insets left="5.0" />
+                         </HBox.margin>
+                        <children>
+                            <TextField fx:id="p1Name" alignment="BASELINE_CENTER" promptText="Name">
+                                <VBox.margin>
+                                    <Insets left="3.0" right="5.0" />
+                                </VBox.margin>
+                            </TextField>
+                        </children>
+                     </VBox>
+                     <VBox prefHeight="20.0" prefWidth="30.0">
+                        <children>
+                            <TextField fx:id="p1Attack" alignment="BASELINE_CENTER" minWidth="28.0" prefWidth="28.0" promptText="a">
+                                <VBox.margin>
+                                    <Insets right="5.0" />
+                                </VBox.margin>
+                            </TextField>
+                        </children>
+                     </VBox>
+                     <VBox prefHeight="20.0" prefWidth="30.0">
+                        <children>
+                            <TextField fx:id="p1Strength" alignment="BASELINE_CENTER" minWidth="28.0" prefWidth="28.0" promptText="s">
+                                <VBox.margin>
+                                    <Insets right="5.0" />
+                                </VBox.margin>
+                            </TextField>
+                        </children>
+                     </VBox>
+                     <VBox prefHeight="100.0" prefWidth="30.0">
+                        <children>
+                            <TextField fx:id="p1Defence" alignment="BASELINE_CENTER" minWidth="28.0" prefWidth="28.0" promptText="d">
+                                <VBox.margin>
+                                    <Insets right="5.0" />
+                                </VBox.margin>
+                            </TextField>
+                        </children>
+                     </VBox>
+                  <VBox prefHeight="20.0" prefWidth="30.0">
+                     <children>
+                        <TextField fx:id="p1HP" minWidth="28.0" prefHeight="25.0" prefWidth="28.0" promptText="h">
+                           <VBox.margin>
+                              <Insets right="5.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                     <VBox prefHeight="25.0" prefWidth="99.0">
+                        <children>
+                            <MenuButton fx:id="p1Style" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" text="Style">
+                                <items>
+                              <MenuItem fx:id="p1Accurate" mnemonicParsing="false" text="Accurate" />
+                              <MenuItem fx:id="p1Aggressive" mnemonicParsing="false" text="Aggressive" />
+                                    <MenuItem fx:id="p1Controlled" mnemonicParsing="false" text="Controlled" />
+                                    <MenuItem fx:id="p1Defensive" mnemonicParsing="false" text="Defensive" />
+                              <MenuItem fx:id="p1RotateAD" mnemonicParsing="false" text="Rotate A/D" />
+                              <MenuItem fx:id="p1RotateCD" mnemonicParsing="false" text="Rotate C/D" />
+                                </items>
+                                <VBox.margin>
+                                    <Insets right="5.0" />
+                                </VBox.margin>
+                            </MenuButton>
+                        </children>
+                     </VBox>
+                  <TextField fx:id="p1Wager" alignment="BASELINE_CENTER" prefHeight="25.0" prefWidth="53.0" text="10" />
+                 </children>
+              </HBox>
+              <HBox layoutY="33.0" prefHeight="40.0" prefWidth="394.0">
+                  <opaqueInsets>
+                      <Insets bottom="5.0" />
+                  </opaqueInsets>
+                  <padding>
+                      <Insets bottom="5.0" top="5.0" />
+                  </padding>
+                 <children>
+                     <VBox prefHeight="60.0" prefWidth="100.0">
+                         <HBox.margin>
+                             <Insets bottom="5.0" left="5.0" />
+                         </HBox.margin>
+                        <children>
+                            <TextField fx:id="p2Name" alignment="BASELINE_CENTER" promptText="Name">
+                                <VBox.margin>
+                                    <Insets left="3.0" right="5.0" />
+                                </VBox.margin>
+                            </TextField>
+                        </children>
+                     </VBox>
+                     <VBox prefHeight="100.0" prefWidth="30.0">
+                         <HBox.margin>
+                             <Insets />
+                         </HBox.margin>
+                        <children>
+                            <TextField fx:id="p2Attack" alignment="BASELINE_CENTER" minWidth="28.0" prefWidth="28.0" promptText="a">
+                                <VBox.margin>
+                                    <Insets right="5.0" />
+                                </VBox.margin>
+                            </TextField>
+                        </children>
+                     </VBox>
+                     <VBox prefHeight="20.0" prefWidth="30.0">
+                        <children>
+                            <TextField fx:id="p2Strength" alignment="BASELINE_CENTER" minWidth="28.0" prefWidth="28.0" promptText="s">
+                                <VBox.margin>
+                                    <Insets right="5.0" />
+                                </VBox.margin>
+                            </TextField>
+                        </children>
+                     </VBox>
+                     <VBox prefHeight="100.0" prefWidth="30.0">
+                        <children>
+                            <TextField fx:id="p2Defence" alignment="BASELINE_CENTER" minWidth="28.0" prefWidth="28.0" promptText="d">
+                                <VBox.margin>
+                                    <Insets right="5.0" />
+                                </VBox.margin>
+                            </TextField>
+                        </children>
+                     </VBox>
+                  <VBox prefHeight="20.0" prefWidth="30.0">
+                     <children>
+                        <TextField fx:id="p2HP" minWidth="28.0" prefWidth="28.0" promptText="h">
+                           <VBox.margin>
+                              <Insets right="5.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                     <VBox prefHeight="30.0" prefWidth="88.0">
+                        <children>
+                        <MenuButton fx:id="p2Style" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" text="Style">
+                           <items>
+                              <MenuItem fx:id="p2Accurate" mnemonicParsing="false" text="Accurate" />
+                              <MenuItem fx:id="p2Aggressive" mnemonicParsing="false" text="Aggressive" />
+                              <MenuItem fx:id="p2Controlled" mnemonicParsing="false" text="Controlled" />
+                              <MenuItem fx:id="p2Defensive" mnemonicParsing="false" text="Defensive" />
+                              <MenuItem fx:id="p2RotateAD" mnemonicParsing="false" text="Rotate A/D" />
+                              <MenuItem fx:id="p2RotateCD" mnemonicParsing="false" text="Rotate C/D" />
+                           </items>
+                           <VBox.margin>
+                              <Insets right="5.0" />
+                           </VBox.margin>
+                        </MenuButton>
+                        </children>
+                     </VBox>
+                  <TextField fx:id="p2Wager" alignment="BASELINE_CENTER" prefHeight="25.0" prefWidth="53.0" text="10">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                 </children>
+              </HBox>
+              <HBox layoutX="8.0" layoutY="61.0" prefHeight="40.0" prefWidth="383.0">
+                  <padding>
+                      <Insets bottom="5.0" top="5.0" />
+                  </padding>
+                  <opaqueInsets>
+                      <Insets left="5.0" top="5.0" />
+                  </opaqueInsets>
+                 <children>
+                     <MenuButton fx:id="duelType" minWidth="125.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" text="Fight Type">
+                         <items>
+                             <MenuItem fx:id="tentSpecOff" mnemonicParsing="false" text="Tentacle" />
+                             <MenuItem fx:id="tentSpecOn" mnemonicParsing="false" text="Tentacle + DDS" />
+                        <MenuItem fx:id="dScimSpecOff" mnemonicParsing="false" text="D. Scim" />
+                        <MenuItem fx:id="dScimSpecOn" mnemonicParsing="false" text="D. Scim + DDS" />
+                        <MenuItem fx:id="noWeapon" mnemonicParsing="false" text="No Weapon(s)" />
+                         </items>
+                         <HBox.margin>
+                             <Insets right="5.0" />
+                         </HBox.margin>
+                     </MenuButton>
+                     <Button fx:id="searchButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Search">
+                         <padding>
+                             <Insets right="5.0" />
+                         </padding>
+                         <HBox.margin>
+                             <Insets right="5.0" />
+                         </HBox.margin>
+                     </Button>
+                  <HBox prefHeight="30.0" prefWidth="190.0">
+                     <children>
+                           <Button fx:id="runButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Run">
+                               <opaqueInsets>
+                                   <Insets right="5.0" />
+                               </opaqueInsets>
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                           </Button>
+                        <Button fx:id="clearButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Clear">
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="donateButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Donate">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                 </children>
+              </HBox>
+          </children>
+       </AnchorPane>
+       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="97.0" prefWidth="254.0">
+           <padding>
+               <Insets left="5.0" right="5.0" />
+           </padding>
+          <children>
+              <TextArea fx:id="textArea" editable="false" layoutX="11.0" layoutY="6.0" minHeight="49.0" prefHeight="80.0" prefWidth="189.0" snapToPixel="false">
+                  <opaqueInsets>
+                    <Insets bottom="5.0" left="5.0" />
+                  </opaqueInsets>
+              </TextArea>
+          </children>
+       </AnchorPane>
+   </items>
+</SplitPane>
